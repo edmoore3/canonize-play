@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fcanons\u002F[canon]","\u002Fcanons\u002F[canon]\u002F[work]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()

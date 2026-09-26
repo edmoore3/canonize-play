@@ -1,0 +1,22 @@
+name: Feedback
+description: Report a problem or suggest an improvement to the Canonize preview.
+title: "Feedback: "
+labels: [feedback]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, or what would you change?
+      description: If something broke, what were you doing just before?
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: Filled in by the site's Feedback link.
+  - type: input
+    id: device
+    attributes:
+      label: Screen and browser
+      description: Filled in by the site's Feedback link. Edit or clear it if you like; issues are public.
